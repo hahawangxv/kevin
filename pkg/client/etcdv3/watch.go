@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 // Watch A watch only tells the latest revision

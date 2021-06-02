@@ -23,13 +23,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/douyu/jupiter/pkg/ecode"
+	"github.com/hahawangxv/kevin/pkg/ecode"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/douyu/jupiter/pkg/client/etcdv3"
-	"github.com/douyu/jupiter/pkg/server"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/client/etcdv3"
+	"github.com/hahawangxv/kevin/pkg/server"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	jsoniter "github.com/json-iterator/go"
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/naming"

@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/client/etcdv3"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/client/etcdv3"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 func main() {

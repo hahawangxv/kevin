@@ -21,8 +21,8 @@ import (
 	"github.com/apache/rocketmq-client-go"
 	"github.com/apache/rocketmq-client-go/consumer"
 	"github.com/apache/rocketmq-client-go/primitive"
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 // ConsumerConfig consumer config

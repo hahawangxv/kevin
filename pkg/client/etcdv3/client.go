@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/douyu/jupiter/pkg/ecode"
+	"github.com/hahawangxv/kevin/pkg/ecode"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	grpcprom "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"google.golang.org/grpc"
 )

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/douyu/jupiter/example/all/internal/app/demo"
+	"github.com/hahawangxv/kevin/example/all/internal/app/demo"
 )
 
 func main() {

@@ -20,8 +20,8 @@ import (
 	"github.com/apache/rocketmq-client-go"
 	"github.com/apache/rocketmq-client-go/primitive"
 	"github.com/apache/rocketmq-client-go/producer"
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 // ProducerConfig producer config

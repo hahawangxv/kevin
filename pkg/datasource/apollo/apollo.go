@@ -1,8 +1,8 @@
 package apollo
 
 import (
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/util/xgo"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/util/xgo"
 	"github.com/philchia/agollo"
 )
 

@@ -17,8 +17,8 @@ package main
 import (
 	"time"
 
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 //  go run main.go --config=config.toml

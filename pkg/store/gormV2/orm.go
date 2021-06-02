@@ -17,7 +17,7 @@ package gormV2
 import (
 	//"context"
 	"errors"
-	"github.com/douyu/jupiter/pkg/util/xdebug"
+	"github.com/hahawangxv/kevin/pkg/util/xdebug"
 
 	_ "github.com/jinzhu/gorm"
 	"gorm.io/driver/sqlite"

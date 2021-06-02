@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/douyu/jupiter/pkg/xlog/rotate"
+	"github.com/hahawangxv/kevin/pkg/xlog/rotate"
 )
 
 // Example of how to rotate in response to SIGHUP.

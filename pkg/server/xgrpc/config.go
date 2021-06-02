@@ -17,10 +17,10 @@ package xgrpc
 import (
 	"fmt"
 
-	"github.com/douyu/jupiter/pkg/ecode"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/ecode"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 
-	"github.com/douyu/jupiter/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/conf"
 	"google.golang.org/grpc"
 )
 

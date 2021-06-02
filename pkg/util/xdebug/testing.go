@@ -19,7 +19,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 var (

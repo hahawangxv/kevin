@@ -19,7 +19,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/douyu/jupiter/pkg/util/xdebug"
+	"github.com/hahawangxv/kevin/pkg/util/xdebug"
 
 	"github.com/jinzhu/gorm"
 	// mysql driver

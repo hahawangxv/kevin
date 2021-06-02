@@ -20,10 +20,10 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/douyu/jupiter/pkg/client/etcdv3"
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/util/xgo"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/client/etcdv3"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/util/xgo"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/pkg/errors"
 )
 

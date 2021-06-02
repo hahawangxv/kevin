@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/douyu/jupiter/pkg/govern"
+	"github.com/hahawangxv/kevin/pkg/govern"
 )
 
 func init() {

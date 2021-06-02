@@ -7,10 +7,10 @@ import (
 
 	sentinel "github.com/alibaba/sentinel-golang/api"
 	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/douyu/jupiter/pkg"
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/constant"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/constant"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 // RawConfig ...

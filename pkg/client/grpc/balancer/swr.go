@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/douyu/jupiter/pkg/util/xrand"
+	"github.com/hahawangxv/kevin/pkg/util/xrand"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/resolver"
 
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/smallnest/weighted"
 )
 

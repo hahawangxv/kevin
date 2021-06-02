@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/client/grpc"
-	etcdv3_registry "github.com/douyu/jupiter/pkg/registry/etcdv3"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/client/grpc"
+	etcdv3_registry "github.com/hahawangxv/kevin/pkg/registry/etcdv3"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 
 	"google.golang.org/grpc/examples/helloworld/helloworld"
 	"google.golang.org/grpc/resolver"

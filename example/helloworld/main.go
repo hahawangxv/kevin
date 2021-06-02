@@ -15,9 +15,9 @@
 package main
 
 import (
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/server/xecho"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/server/xecho"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/labstack/echo/v4"
 )
 

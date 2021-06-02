@@ -1,4 +1,4 @@
-module github.com/douyu/jupiter
+module github.com/hahawangxv/kevin
 
 go 1.14
 

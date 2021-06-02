@@ -15,11 +15,11 @@
 package main
 
 import (
-	"github.com/douyu/jupiter"
-	compound_registry "github.com/douyu/jupiter/pkg/registry/compound"
-	etcdv3_registry "github.com/douyu/jupiter/pkg/registry/etcdv3"
-	"github.com/douyu/jupiter/pkg/server/xecho"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	compound_registry "github.com/hahawangxv/kevin/pkg/registry/compound"
+	etcdv3_registry "github.com/hahawangxv/kevin/pkg/registry/etcdv3"
+	"github.com/hahawangxv/kevin/pkg/server/xecho"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/labstack/echo/v4"
 )
 

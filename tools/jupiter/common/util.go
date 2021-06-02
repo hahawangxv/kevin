@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/douyu/jupiter/pkg/util/xregexp"
+	"github.com/hahawangxv/kevin/pkg/util/xregexp"
 	"io/ioutil"
 	"os"
 	"path/filepath"

@@ -3,7 +3,7 @@ package protoc
 import (
 	"errors"
 	"fmt"
-	"github.com/douyu/jupiter/pkg/util/xcolor"
+	"github.com/hahawangxv/kevin/pkg/util/xcolor"
 	"os"
 	"os/exec"
 	"path/filepath"

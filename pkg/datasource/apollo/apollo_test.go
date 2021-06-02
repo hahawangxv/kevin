@@ -1,7 +1,7 @@
 package apollo
 
 import (
-	"github.com/douyu/jupiter/pkg/datasource/apollo/mockserver"
+	"github.com/hahawangxv/kevin/pkg/datasource/apollo/mockserver"
 	"github.com/philchia/agollo"
 	"github.com/stretchr/testify/assert"
 	"log"

@@ -15,9 +15,9 @@
 package main
 
 import (
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/client/redis"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/client/redis"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"time"
 )
 

@@ -18,9 +18,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/client/grpc"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/client/grpc"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"google.golang.org/grpc/examples/helloworld/helloworld"
 )
 

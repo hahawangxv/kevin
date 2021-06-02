@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/douyu/jupiter/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/conf"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

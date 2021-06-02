@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/douyu/jupiter/pkg/trace"
+	"github.com/hahawangxv/kevin/pkg/trace"
 )
 
 func ExampleTraceFunc() {

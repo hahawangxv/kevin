@@ -20,10 +20,10 @@ import (
 
 	"net"
 
-	"github.com/douyu/jupiter/pkg"
-	"github.com/douyu/jupiter/pkg/ecode"
-	"github.com/douyu/jupiter/pkg/server"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg"
+	"github.com/hahawangxv/kevin/pkg/ecode"
+	"github.com/hahawangxv/kevin/pkg/server"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/gin-gonic/gin"
 )
 

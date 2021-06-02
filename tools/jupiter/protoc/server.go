@@ -2,8 +2,8 @@ package protoc
 
 import (
 	"fmt"
-	"github.com/douyu/jupiter/pkg/util/xcolor"
-	template2 "github.com/douyu/jupiter/tools/jupiter/protoc/template"
+	"github.com/hahawangxv/kevin/pkg/util/xcolor"
+	template2 "github.com/hahawangxv/kevin/tools/jupiter/protoc/template"
 	"github.com/emicklei/proto"
 	"html/template"
 	"os"

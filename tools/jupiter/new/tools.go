@@ -17,8 +17,8 @@ package new
 import (
 	"bytes"
 	"fmt"
-	"github.com/douyu/jupiter/pkg/util/xcolor"
-	"github.com/douyu/jupiter/tools/jupiter/common"
+	"github.com/hahawangxv/kevin/pkg/util/xcolor"
+	"github.com/hahawangxv/kevin/tools/jupiter/common"
 	"github.com/gobuffalo/packr/v2"
 	"github.com/urfave/cli"
 	"io/ioutil"

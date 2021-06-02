@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/douyu/jupiter/pkg/util/xcolor"
+	"github.com/hahawangxv/kevin/pkg/util/xcolor"
 )
 
 var (

@@ -15,7 +15,7 @@
 package redis
 
 import (
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/go-redis/redis"
 )
 

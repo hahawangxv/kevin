@@ -17,10 +17,10 @@ package main
 import (
 	"time"
 
-	"github.com/douyu/jupiter"
-	_ "github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/worker/xcron"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	_ "github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/worker/xcron"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 func main() {

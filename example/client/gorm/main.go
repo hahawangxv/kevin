@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/store/gorm"
-	"github.com/douyu/jupiter/pkg/worker/xcron"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/store/gorm"
+	"github.com/hahawangxv/kevin/pkg/worker/xcron"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 /**

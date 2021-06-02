@@ -15,8 +15,8 @@
 package rabbitmq
 
 import (
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/streadway/amqp"
 )
 

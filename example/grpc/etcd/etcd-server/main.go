@@ -16,11 +16,11 @@ package main
 
 import (
 	"context"
-	"github.com/douyu/jupiter"
-	compound_registry "github.com/douyu/jupiter/pkg/registry/compound"
-	etcdv3_registry "github.com/douyu/jupiter/pkg/registry/etcdv3"
-	"github.com/douyu/jupiter/pkg/server/xgrpc"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	compound_registry "github.com/hahawangxv/kevin/pkg/registry/compound"
+	etcdv3_registry "github.com/hahawangxv/kevin/pkg/registry/etcdv3"
+	"github.com/hahawangxv/kevin/pkg/server/xgrpc"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"google.golang.org/grpc/examples/helloworld/helloworld"
 )
 

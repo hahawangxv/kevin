@@ -15,9 +15,9 @@
 package main
 
 import (
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/server/xgin"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/server/xgin"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/gin-gonic/gin"
 )
 

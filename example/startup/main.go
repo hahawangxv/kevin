@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/douyu/jupiter"
-	"github.com/douyu/jupiter/pkg/server"
-	"github.com/douyu/jupiter/pkg/server/xecho"
-	"github.com/douyu/jupiter/pkg/server/xgrpc"
-	"github.com/douyu/jupiter/pkg/worker"
-	"github.com/douyu/jupiter/pkg/worker/xcron"
+	"github.com/hahawangxv/kevin"
+	"github.com/hahawangxv/kevin/pkg/server"
+	"github.com/hahawangxv/kevin/pkg/server/xecho"
+	"github.com/hahawangxv/kevin/pkg/server/xgrpc"
+	"github.com/hahawangxv/kevin/pkg/worker"
+	"github.com/hahawangxv/kevin/pkg/worker/xcron"
 	"github.com/labstack/echo/v4"
 )
 

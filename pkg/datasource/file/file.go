@@ -19,9 +19,9 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/douyu/jupiter/pkg/util/xfile"
-	"github.com/douyu/jupiter/pkg/util/xgo"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/util/xfile"
+	"github.com/hahawangxv/kevin/pkg/util/xgo"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"github.com/fsnotify/fsnotify"
 )
 

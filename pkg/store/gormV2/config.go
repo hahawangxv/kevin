@@ -17,11 +17,11 @@ package gormV2
 import (
 	"time"
 
-	"github.com/douyu/jupiter/pkg/ecode"
+	"github.com/hahawangxv/kevin/pkg/ecode"
 
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/util/xtime"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/util/xtime"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 // StdConfig 标准配置，规范配置文件头

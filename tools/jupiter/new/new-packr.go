@@ -5,4 +5,4 @@
 // and any other packr generated files.
 package new
 
-import _ "github.com/douyu/jupiter/tools/jupiter/new/packrd"
+import _ "github.com/hahawangxv/kevin/tools/jupiter/new/packrd"

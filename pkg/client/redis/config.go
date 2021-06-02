@@ -15,9 +15,9 @@
 package redis
 
 import (
-	"github.com/douyu/jupiter/pkg/conf"
-	"github.com/douyu/jupiter/pkg/util/xtime"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/conf"
+	"github.com/hahawangxv/kevin/pkg/util/xtime"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 	"time"
 )
 

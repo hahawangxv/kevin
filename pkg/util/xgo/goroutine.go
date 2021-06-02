@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/codegangsta/inject"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 // Serial 串行

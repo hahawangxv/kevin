@@ -20,9 +20,9 @@ import (
 
 	"github.com/apache/rocketmq-client-go/consumer"
 	"github.com/apache/rocketmq-client-go/primitive"
-	"github.com/douyu/jupiter/pkg/metric"
-	"github.com/douyu/jupiter/pkg/util/xdebug"
-	"github.com/douyu/jupiter/pkg/xlog"
+	"github.com/hahawangxv/kevin/pkg/metric"
+	"github.com/hahawangxv/kevin/pkg/util/xdebug"
+	"github.com/hahawangxv/kevin/pkg/xlog"
 )
 
 var _logger = xlog.DefaultConfig().Build()

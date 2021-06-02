@@ -15,8 +15,8 @@
 package main
 
 import (
-	"github.com/douyu/jupiter/tools/jupiter/new"
-	"github.com/douyu/jupiter/tools/jupiter/protoc"
+	"github.com/hahawangxv/kevin/tools/jupiter/new"
+	"github.com/hahawangxv/kevin/tools/jupiter/protoc"
 	"os"
 
 	"github.com/urfave/cli"

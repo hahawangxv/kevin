@@ -17,7 +17,7 @@ package metric
 import (
 	"net/http"
 
-	"github.com/douyu/jupiter/pkg/govern"
+	"github.com/hahawangxv/kevin/pkg/govern"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
