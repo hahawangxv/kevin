@@ -22,12 +22,17 @@ import (
 
 // ProducerConfig producer config
 type ProducerConfig struct {
-	Addr []string `json:"addr" toml:"addr"`
+	Addr string `json:"addr" toml:"addr"`
 }
 
 // StdProducerConfig ...
 func StdProducerConfig(name string) ProducerConfig {
-	return RawProducerConfig("jupiter.rabbitmq." + name + ".producer")
+	return RawProducerConfig("jupiter.rabbitmq." + name + ".stub")
+}
+
+// StdProducerConfig ...
+func TemplateMqConfig(name string) ProducerConfig {
+	return RawProducerConfig("template.rabbitmq." + name + ".stub")
 }
 
 // RawProducerConfig ...
@@ -45,16 +50,17 @@ func DefaultProducerConfig() ProducerConfig {
 }
 
 // Build ...
-func (config ProducerConfig) Build() *amqp.Channel {
+func (config ProducerConfig) Build() *amqp.Connection {
 	// 兼容配置
 	client, err := amqp.Dial(config.Addr)
 	if err != nil {
-		xlog.Panic("amqp.Dial err", err)
-	}
-	Channel, err := client.Channel()
-	if err != nil {
 		xlog.Panic("amqp.Dial err", xlog.Any("err", err))
 	}
-
-	return Channel
+	/*
+		Channel, err := client.Channel()
+		if err != nil {
+			xlog.Panic("amqp.Dial err", xlog.Any("err", err))
+		}*/
+	//defer client.Close()
+	return client
 }
