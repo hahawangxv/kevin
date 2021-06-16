@@ -57,6 +57,10 @@ func StdConfig(name string) *Config {
 	return RawConfig("jupiter.etcdv3." + name)
 }
 
+func TemplateConfig(name string) *Config {
+	return RawConfig("template.etcdv3." + name)
+}
+
 // RawConfig ...
 func RawConfig(key string) *Config {
 	var config = DefaultConfig()
