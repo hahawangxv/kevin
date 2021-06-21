@@ -17,13 +17,13 @@ package gormV2
 import (
 	//"context"
 	"errors"
+
 	"github.com/hahawangxv/kevin/pkg/util/xdebug"
 
-	_ "github.com/jinzhu/gorm"
-	"gorm.io/driver/sqlite"
+	"gorm.io/driver/mysql"
+	_ "gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	//// mysql driver
-	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 // SQLCommon ...
@@ -87,12 +87,11 @@ var (
 // Open ...
 func Open(dialect string, options *Config) (*DB, error) {
 
-
-	inner, err := gorm.Open(sqlite.Open(options.DSN))
+	inner, err := gorm.Open(mysql.Open(options.DSN))
 	if err != nil {
 		return nil, err
 	}
-	if options.Debug == true{
+	if options.Debug == true {
 		inner.Debug()
 	}
 
@@ -110,8 +109,5 @@ func Open(dialect string, options *Config) (*DB, error) {
 		//inner.LogMode(true)
 	}
 
-
-
 	return inner, err
 }
-
